@@ -35,7 +35,7 @@ Lambda -> "DynamoDB (Recommendations)": Assign mentors to added user
 ### Get User (Mentee)
 
 
-![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/get_user.md)
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/get_user1.md)
 
 
 ```plantuml
