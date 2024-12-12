@@ -2,6 +2,9 @@
 
 ### Add User (Mentee)
 
+
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/add_user.md)
+
 ```plantuml
 @startuml
 Participant Client
@@ -30,6 +33,10 @@ Lambda -> "DynamoDB (Recommendations)": Assign mentors to added user
 ```
 
 ### Get User (Mentee)
+
+
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/get_user.md)
+
 
 ```plantuml
 @startuml
@@ -62,6 +69,9 @@ Lambda -> "DynamoDB (Recommendations)": mentee's userId
 
 ### Add User (Mentor)
 
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/add_mentor.md)
+
+
 ```plantuml
 @startuml
 Participant Client
@@ -88,6 +98,9 @@ Lambda -> "DynamoDB (Recommendations)": Assign mentors to all user
 
 ### Get User (Mentor)
 
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/get_mentor.md)
+
+
 ```plantuml
 @startuml
 Participant Client
@@ -107,6 +120,9 @@ Lambda -> "DynamoDB (User)": mentor's userId
 
 
 ### Weekly Trigger
+
+![Class Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/mmgathena/seq/refs/heads/main/eventbridge.md)
+
 
 ```plantuml
 @startuml
@@ -172,5 +188,7 @@ Lambda -> DynamoDB: Add user data to DB
 ' Lambda -> EventBridge: Trigger events
 @enduml
 ``` -->
+
+
 
 
